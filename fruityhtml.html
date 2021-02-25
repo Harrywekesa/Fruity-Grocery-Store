@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+	<!Adding a favicon to the title bar using link rel atrribite>
+	<link rel="icon"  href="apples.JPEG" type="image/gif" sizes="16x16">
+	<title>Fruity Grocery Store</title>
+	<link rel="stylesheet" type="text/css" href="fruitycss.css">
+	<script src="fruityvalidation.js" ></script>
+</head>
+<body>
+	<!Adding a logo beside the header>
+	<div class="header">
+		<h1><img src="apples.JPEG" alt="logo"/>Fruity Grocery store</h1>
+	</div><br>
+	<P>Welcome to Fruity Grocery Store customer review form, Please take a moment and hand in your reviews and recommendations.Your satisfaction is our utmost priority</P>
+	<form> 
+		<fieldset>
+		<strong><legend style="font-family: new-times roman">Please Fill in the document below:</legend></strong>
+
+			<!Collecting personal details in textfields and validating them using the called javascript functions>
+
+		<strong>First name:</strong><input type="text" name="fname" id="name" required onblur="validatename()" >
+		<strong>Last name:</strong><input type="text" name="lname" id="name" required onblur="validatename()"> 
+		<strong>Age:</strong><input type="number" name="age" id="age" min="15" max="120" onblur="validateage()" ><br>
+		<strong>Email Address:</strong><input type="Email" name="Email1" id="Email1" class="ema" required="" onblur="validateEmail()">
+		<strong>Confirm Email Address:</strong><input type="Email" name="Email2" id="Email2" class="ema" required="" onblur="validateEmails()"><br><br>
+		<strong>Gender:</strong><br>
+		<input type="radio" name="gender" id="gender" checked>Male<br>
+		<input type="radio" name="gender" id="gender">Female<br>
+		<input type="radio" name="gender" id="gender" >Prefer not to say<br>
+		</fieldset>
+
+		<!Colleciting customer reviews on products and services>
+
+		<fieldset>
+			<STRONG><legend>Products and services</legend></STRONG>
+		<strong>Choose a section to comment on:</strong><br>
+		<input type="checkbox" name="checkbox1" id="checkbox1">Fruits<br>
+		<input type="checkbox" name="checkbox2" id="checkbox2">Vegetables<br>
+		<input type="checkbox" name="checkbox3" id="checkbox3">Servicing<br>
+		<strong> If Fruits:</strong>
+		<input type="radio" name="quality1" id="quality" checked="">Very Bad
+		<input type="radio" name="quality2" id="quality">Bad
+		<input type="radio" name="quality3" id="quality">Good
+		<input type="radio" name="quality4" id="quality">Very Good<br><br>
+		<strong>Reccomendations and/or Reasons:</strong>
+		<input type="textarea" name="textarea1" class="textarea1"><br>
+		<strong>If Vegetables:</strong>
+		<input type="radio" name="quality5" id="quality" checked="">Very Bad
+		<input type="radio" name="quality6" id="quality">Bad
+		<input type="radio" name="quality7" id="quality">Good
+		<input type="radio" name="quality8" id="quality">Very Good<br><br>
+		<strong>Reccomendations and/or Reasons:</strong>
+		<input type="textarea" name="textarea2" class="textarea1"><br>
+		<strong>Our Services:</strong>
+		<input type="radio" name="quality9" id="quality" checked="">Very Bad
+		<input type="radio" name="quality10" id="quality">Bad
+		<input type="radio" name="quality11" id="quality">Good
+		<input type="radio" name="quality12" id="quality">Very Good<br><br>
+		<strong>Reccomendations and/or Reasons:</strong>
+		<input type="textarea" name="textarea3" class="textarea1"><br><br><br>
+		</fieldset>
+
+	</form>
+	<p style="margin: 20px">
+		Any other Questions and Complains :<input type="textarea" name="complains" style="height: 30px; width: 55%"><br>
+	</p>
+	<p style="margin: 20px">Thank you for your input we are making the neccessary changes and improvements as per your recommendations.Thank you for shopping with us.</p>
+</body>
+</html>

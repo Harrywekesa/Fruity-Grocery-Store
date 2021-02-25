@@ -1,0 +1,58 @@
+/*Adding the Properties of the logo inside the header class*/
+.header img{
+	float:left;
+	width:100px;
+	height:100px;
+	
+}
+/*Addign properties to the first head */
+.header h1 {
+	position:relative;
+	top:18px;
+	left:10px;
+	color:white;
+}
+
+body{
+	background-color: darkgreen;
+	background-size : 80% ;
+	font-size: 30px;
+}
+form{ 
+	/*Adding an image as a background and giving it properties*/
+	background-image: url("All.jpeg");
+	background-size:cover;
+	color:#000000;
+}
+img {
+	color: transparent;
+	size: 100%;
+}
+
+/*Reffering to elements by id using the # operator*/
+#age{
+	background-color: lightgreen
+}
+#name{
+	background-color: lightgreen;
+}
+
+/*Reffering to elements by class name using the dot(.) operator*/
+.ema{
+	background-color: lightgreen;
+}
+.textarea1{
+	width: 50%;
+	height:20px;
+	padding:12px 20px;
+	margin-left:20px;
+	box-sizing: border-box;
+	border:2px solid #ccc;
+	border-radius:4px;
+	background-color:lightgreen;
+	resize:none;
+}
+.btn{
+	background-color:green;
+	color:white;
+}

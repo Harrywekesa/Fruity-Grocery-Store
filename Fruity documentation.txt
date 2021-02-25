@@ -1,0 +1,9 @@
+					Fruity Grocery store
+The fruity Grocery store form is a document to collect user reviews of the product and services offered by the store
+It coolects user personal data together with their opinions and suggetions.
+Despite being able to collect massive data I chose this kind of form because it can take many different input types on the same page.
+Alongside this documentation attached are these files:-
+      1.fruityhtml - the Html file of the form.
+      2.fruitycss -  the css stylying file of the form.
+      3.fruityvalidation - the javascript validation file for the form.
+      4.Fruity Documentation - the documentation file (this file)
